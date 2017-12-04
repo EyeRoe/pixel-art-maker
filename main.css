@@ -28,6 +28,7 @@ body {
   border: solid black 1px;
   min-height: 2em;
   min-width: 2em;
+  background-color: white;
 }
 div .palette{
   min-height: 2em;
@@ -35,7 +36,4 @@ div .palette{
 }
 .red{
   background-color: red;
-}
-.blue{
-  background-color: blue;
 }
