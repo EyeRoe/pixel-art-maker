@@ -1,0 +1,41 @@
+html{
+  font-size: 16px;  
+}
+body {
+  background-color: plum;
+  /* background-image: url('assets/pinkRoses.jpg');
+  background-attachment: fixed;
+  background-position: 100%;
+  background-size: cover;
+  font-family: 'Cardo', serif; */
+}
+.wrapper{
+  position: relative;
+  padding: 5em;
+}
+.main{
+  background-color: white;  
+  border: solid black 1px;
+  position: relative;
+  width: 25em;
+  margin: auto;
+  padding: 2em 2em 2em 2em;
+  border-radius: .5em;
+  text-align: center;
+}
+
+.pixel{
+  border: solid black 1px;
+  min-height: 2em;
+  min-width: 2em;
+}
+div .palette{
+  min-height: 2em;
+  min-width: 2em;
+}
+.red{
+  background-color: red;
+}
+.blue{
+  background-color: blue;
+}
