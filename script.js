@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
   var canvas = document.querySelector('.canvas');
-  var palette = document.querySelector('.palette');
+  var palette = document.querySelector('.palette')
   var color = '';
   var backgroundColor = "background-color";
   console.log("yes hello");
@@ -22,8 +22,3 @@ document.addEventListener('DOMContentLoaded', function () {
     event.stopPropagation();
   }
 })
-
-// canvas.addEventListener("click", function(event){
-//   var selectedPixel = event.target;
-//   selectedPixel.className += " red";
-// })

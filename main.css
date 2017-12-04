@@ -11,29 +11,28 @@ body {
 }
 .wrapper{
   position: relative;
-  padding: 5em;
+  padding: 10em;
 }
 .main{
   background-color: white;  
   border: solid black 1px;
   position: relative;
-  width: 25em;
+  /* width: 100em; */
   margin: auto;
-  padding: 2em 2em 2em 2em;
+  /* padding: 2em; */
   border-radius: .5em;
   text-align: center;
 }
 
 .pixel{
   border: solid black 1px;
+  ;width: 2em;
+  height: 2em;
+  display: table-cell;
+  background: white;
+}
+ .palette{
   min-height: 2em;
   min-width: 2em;
-  background-color: white;
 }
-div .palette{
-  min-height: 2em;
-  min-width: 2em;
-}
-.red{
-  background-color: red;
-}
+
